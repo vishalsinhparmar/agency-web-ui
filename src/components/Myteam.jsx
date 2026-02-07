@@ -1,4 +1,3 @@
-import React from 'react'
 import ceo from '../assets/images/CEO.jpg'
 import coFounnder from '../assets/images/cofounder.jpg'
 import Head_of_Growth from '../assets/images/headofgrowth.jpg'

@@ -1,7 +1,6 @@
- import Home from "./components/Home";
+import Home from "./components/Home";
 import NavbarApp from "./components/NavbarApp";
 import './main.css'
-import React from 'react'
 import Service from "./components/Service";
 import Testimonial from "./components/Testimonial";
 import Team from "./components/Team";
