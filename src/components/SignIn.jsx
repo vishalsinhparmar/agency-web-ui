@@ -1,12 +1,10 @@
-import React, { useRef, useState } from 'react'
+import { useRef } from 'react'
 import signIn from '../assets/images/login.jpg'
-import { Google, GooglePlay} from 'react-bootstrap-icons'
+import { Google } from 'react-bootstrap-icons'
 import {Link} from 'react-router-dom'
 import NavbarApp from './NavbarApp'
-import Contact from './Contact'
 export default function SignIn() {
 // using hooks
-  const[count,setCount]=useState([]);
   const Email = useRef("");
   const Password = useRef("");
 
@@ -49,7 +47,7 @@ export default function SignIn() {
    
           <input type='submit'   className='btn btn-danger w-100  rounded-pill mt-3' value="Book appointment" />
          <button type ="button" className='btn btn-white w-100 border mt-3 rounded-pill'><Google className='fs-4 me-4'/>Sign in with Google</button>
-         <p className='pt-3'>Don't have an account? <Link to="/signup" href="#" >Sign-up for free</Link></p>
+         <p className='pt-3'>Don&apos;t have an account? <Link to="/signup" href="#" >Sign-up for free</Link></p>
    
          </form>
          </div>

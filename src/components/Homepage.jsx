@@ -1,4 +1,3 @@
-import React from 'react'
 import section from '../assets/images/image1.jpg'
 import google from '../assets/images/GOOGLE.png'
 import microsoft from '../assets/images/microsoft.png'
@@ -19,7 +18,7 @@ export default function Homepage() {
                  and Specialized Digital Marketing & Development Solution
              </p>
              <div className='d-flex flex-row  align-items-baseline'>
-             <button type="button" class="btn btn-dark rounded-pill py-2 shadow">Get Started</button>
+             <button type="button" className="btn btn-dark rounded-pill py-2 shadow">Get Started</button>
              <p className='mx-4'>Read success stories</p>
              </div>
           </div>
@@ -30,7 +29,7 @@ export default function Homepage() {
              </div>
              </div>
        </div>
-         <p className='my-4 pt-5 fw-normal text-center fs-4'> Trusted by the world's most Popular Brands</p>
+         <p className='my-4 pt-5 fw-normal text-center fs-4'> Trusted by the world&apos;s most Popular Brands</p>
 
          <div className='row container-fluid d-flex flex-row  align-items-baseline mx-auto'>
             <div className=' col  image-fluid'>
